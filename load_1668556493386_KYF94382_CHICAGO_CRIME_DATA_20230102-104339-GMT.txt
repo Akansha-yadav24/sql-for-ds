@@ -1,0 +1,827 @@
+{
+    "errorMessageCode": "NONE",
+    "message": "LOAD completed successfully.",
+    "result": {
+        "END_TIME": "",
+        "LOAD_ID": 1668556493386,
+        "LOAD_LOGFILE": "loadlogs\/load_1668556493386_KYF94382_CHICAGO_CRIME_DATA_20230102-104339-GMT.txt",
+        "LOAD_OUTPUT": [
+            {
+                "MESSAGE": "The DB2_LOAD_COPY_NO_OVERRIDE registry variable value \"COPY YES TO DB2REMOTE:\/\/db2-s3-load\/\/CSYS.DB2COS\/\/LoadCopies,DB2REMOTE\" overrides the COPY NO parameter specified in the Load.",
+                "SQLCODE": "SQL27966W"
+            },
+            {
+                "MESSAGE": "The utility is beginning to load data from file \"S3\".",
+                "SQLCODE": "SQL3109N"
+            },
+            {
+                "MESSAGE": "The utility is beginning the \"LOAD\" phase at time \"01\/02\/2023 10:43:45.262454\".",
+                "SQLCODE": "SQL3500W"
+            },
+            {
+                "MESSAGE": "Begin Load Consistency Point. Input record count = \"0\".",
+                "SQLCODE": "SQL3519W"
+            },
+            {
+                "MESSAGE": "Load Consistency Point was successful.",
+                "SQLCODE": "SQL3520W"
+            },
+            {
+                "MESSAGE": "The character data in row \"F3-1\" and column \"6\" was truncated because the data is longer than the target database column.",
+                "SQLCODE": "SQL3125W"
+            },
+            {
+                "MESSAGE": "The value in row \"F0-1\" and column \"1\" could not be converted to an integer value, so a null value was loaded instead.",
+                "SQLCODE": "SQL3119W"
+            },
+            {
+                "MESSAGE": "The character data in row \"F3-2\" and column \"6\" was truncated because the data is longer than the target database column.",
+                "SQLCODE": "SQL3125W"
+            },
+            {
+                "MESSAGE": "The character data in row \"F0-1\" and column \"2\" was truncated because the data is longer than the target database column.",
+                "SQLCODE": "SQL3125W"
+            },
+            {
+                "MESSAGE": "The character data in row \"F0-1\" and column \"9\" was truncated because the data is longer than the target database column.",
+                "SQLCODE": "SQL3125W"
+            },
+            {
+                "MESSAGE": "The character data in row \"F0-1\" and column \"10\" was truncated because the data is longer than the target database column.",
+                "SQLCODE": "SQL3125W"
+            },
+            {
+                "MESSAGE": "The field value in row \"F0-1\" and column \"11\" cannot be converted to a SMALLINT value.  A null was loaded.",
+                "SQLCODE": "SQL3117W"
+            },
+            {
+                "MESSAGE": "The character data in row \"F3-3\" and column \"6\" was truncated because the data is longer than the target database column.",
+                "SQLCODE": "SQL3125W"
+            },
+            {
+                "MESSAGE": "The field value in row \"F0-1\" and column \"12\" cannot be converted to a SMALLINT value.  A null was loaded.",
+                "SQLCODE": "SQL3117W"
+            },
+            {
+                "MESSAGE": "The character data in row \"F3-4\" and column \"6\" was truncated because the data is longer than the target database column.",
+                "SQLCODE": "SQL3125W"
+            },
+            {
+                "MESSAGE": "The field value in row \"F0-1\" and column \"13\" cannot be converted to a SMALLINT value.  A null was loaded.",
+                "SQLCODE": "SQL3117W"
+            },
+            {
+                "MESSAGE": "The character data in row \"F3-5\" and column \"6\" was truncated because the data is longer than the target database column.",
+                "SQLCODE": "SQL3125W"
+            },
+            {
+                "MESSAGE": "The field value in row \"F0-1\" and column \"14\" cannot be converted to a SMALLINT value.  A null was loaded.",
+                "SQLCODE": "SQL3117W"
+            },
+            {
+                "MESSAGE": "The character data in row \"F3-6\" and column \"6\" was truncated because the data is longer than the target database column.",
+                "SQLCODE": "SQL3125W"
+            },
+            {
+                "MESSAGE": "The character data in row \"F0-1\" and column \"15\" was truncated because the data is longer than the target database column.",
+                "SQLCODE": "SQL3125W"
+            },
+            {
+                "MESSAGE": "The character data in row \"F3-7\" and column \"6\" was truncated because the data is longer than the target database column.",
+                "SQLCODE": "SQL3125W"
+            },
+            {
+                "MESSAGE": "The value in row \"F0-1\" and column \"16\" could not be converted to an integer value, so a null value was loaded instead.",
+                "SQLCODE": "SQL3119W"
+            },
+            {
+                "MESSAGE": "The value in row \"F0-1\" and column \"17\" could not be converted to an integer value, so a null value was loaded instead.",
+                "SQLCODE": "SQL3119W"
+            },
+            {
+                "MESSAGE": "The character data in row \"F3-11\" and column \"6\" was truncated because the data is longer than the target database column.",
+                "SQLCODE": "SQL3125W"
+            },
+            {
+                "MESSAGE": "The character data in row \"F3-12\" and column \"6\" was truncated because the data is longer than the target database column.",
+                "SQLCODE": "SQL3125W"
+            },
+            {
+                "MESSAGE": "The field value in row \"F0-1\" and column \"18\" cannot be converted to a SMALLINT value.  A null was loaded.",
+                "SQLCODE": "SQL3117W"
+            },
+            {
+                "MESSAGE": "The character data in row \"F3-15\" and column \"6\" was truncated because the data is longer than the target database column.",
+                "SQLCODE": "SQL3125W"
+            },
+            {
+                "MESSAGE": "The field value in row \"F0-1\" and column \"19\" cannot be converted to a PACKED DECIMAL value.  A null was loaded.",
+                "SQLCODE": "SQL3123W"
+            },
+            {
+                "MESSAGE": "The character data in row \"F3-16\" and column \"6\" was truncated because the data is longer than the target database column.",
+                "SQLCODE": "SQL3125W"
+            },
+            {
+                "MESSAGE": "The field value in row \"F0-1\" and column \"20\" cannot be converted to a PACKED DECIMAL value.  A null was loaded.",
+                "SQLCODE": "SQL3123W"
+            },
+            {
+                "MESSAGE": "The syntax of the string representation of a datetime value is incorrect.  SQLSTATE=22007",
+                "SQLCODE": "SQL0180N"
+            },
+            {
+                "MESSAGE": "The character data in row \"F3-25\" and column \"6\" was truncated because the data is longer than the target database column.",
+                "SQLCODE": "SQL3125W"
+            },
+            {
+                "MESSAGE": "The previous error occurred while processing data from row \"F0-1\" of the input file.",
+                "SQLCODE": "SQL3185W"
+            },
+            {
+                "MESSAGE": "The character data in row \"F3-26\" and column \"6\" was truncated because the data is longer than the target database column.",
+                "SQLCODE": "SQL3125W"
+            },
+            {
+                "MESSAGE": "The character data in row \"F3-28\" and column \"6\" was truncated because the data is longer than the target database column.",
+                "SQLCODE": "SQL3125W"
+            },
+            {
+                "MESSAGE": "The character data in row \"F3-29\" and column \"6\" was truncated because the data is longer than the target database column.",
+                "SQLCODE": "SQL3125W"
+            },
+            {
+                "MESSAGE": "The character data in row \"F3-32\" and column \"6\" was truncated because the data is longer than the target database column.",
+                "SQLCODE": "SQL3125W"
+            },
+            {
+                "MESSAGE": "The character data in row \"F3-33\" and column \"6\" was truncated because the data is longer than the target database column.",
+                "SQLCODE": "SQL3125W"
+            },
+            {
+                "MESSAGE": "The character data in row \"F2-71\" and column \"6\" was truncated because the data is longer than the target database column.",
+                "SQLCODE": "SQL3125W"
+            },
+            {
+                "MESSAGE": "The character data in row \"F2-72\" and column \"6\" was truncated because the data is longer than the target database column.",
+                "SQLCODE": "SQL3125W"
+            },
+            {
+                "MESSAGE": "The character data in row \"F2-73\" and column \"6\" was truncated because the data is longer than the target database column.",
+                "SQLCODE": "SQL3125W"
+            },
+            {
+                "MESSAGE": "The character data in row \"F2-74\" and column \"6\" was truncated because the data is longer than the target database column.",
+                "SQLCODE": "SQL3125W"
+            },
+            {
+                "MESSAGE": "The character data in row \"F2-75\" and column \"6\" was truncated because the data is longer than the target database column.",
+                "SQLCODE": "SQL3125W"
+            },
+            {
+                "MESSAGE": "The character data in row \"F2-76\" and column \"6\" was truncated because the data is longer than the target database column.",
+                "SQLCODE": "SQL3125W"
+            },
+            {
+                "MESSAGE": "The character data in row \"F2-77\" and column \"6\" was truncated because the data is longer than the target database column.",
+                "SQLCODE": "SQL3125W"
+            },
+            {
+                "MESSAGE": "The character data in row \"F2-78\" and column \"6\" was truncated because the data is longer than the target database column.",
+                "SQLCODE": "SQL3125W"
+            },
+            {
+                "MESSAGE": "The character data in row \"F2-79\" and column \"6\" was truncated because the data is longer than the target database column.",
+                "SQLCODE": "SQL3125W"
+            },
+            {
+                "MESSAGE": "The character data in row \"F2-80\" and column \"6\" was truncated because the data is longer than the target database column.",
+                "SQLCODE": "SQL3125W"
+            },
+            {
+                "MESSAGE": "The character data in row \"F2-81\" and column \"6\" was truncated because the data is longer than the target database column.",
+                "SQLCODE": "SQL3125W"
+            },
+            {
+                "MESSAGE": "The character data in row \"F2-82\" and column \"6\" was truncated because the data is longer than the target database column.",
+                "SQLCODE": "SQL3125W"
+            },
+            {
+                "MESSAGE": "The character data in row \"F2-83\" and column \"6\" was truncated because the data is longer than the target database column.",
+                "SQLCODE": "SQL3125W"
+            },
+            {
+                "MESSAGE": "The character data in row \"F2-84\" and column \"6\" was truncated because the data is longer than the target database column.",
+                "SQLCODE": "SQL3125W"
+            },
+            {
+                "MESSAGE": "The character data in row \"F2-85\" and column \"6\" was truncated because the data is longer than the target database column.",
+                "SQLCODE": "SQL3125W"
+            },
+            {
+                "MESSAGE": "The character data in row \"F2-86\" and column \"6\" was truncated because the data is longer than the target database column.",
+                "SQLCODE": "SQL3125W"
+            },
+            {
+                "MESSAGE": "The character data in row \"F2-87\" and column \"6\" was truncated because the data is longer than the target database column.",
+                "SQLCODE": "SQL3125W"
+            },
+            {
+                "MESSAGE": "The character data in row \"F2-88\" and column \"6\" was truncated because the data is longer than the target database column.",
+                "SQLCODE": "SQL3125W"
+            },
+            {
+                "MESSAGE": "The character data in row \"F2-89\" and column \"6\" was truncated because the data is longer than the target database column.",
+                "SQLCODE": "SQL3125W"
+            },
+            {
+                "MESSAGE": "The character data in row \"F2-90\" and column \"6\" was truncated because the data is longer than the target database column.",
+                "SQLCODE": "SQL3125W"
+            },
+            {
+                "MESSAGE": "The character data in row \"F2-91\" and column \"6\" was truncated because the data is longer than the target database column.",
+                "SQLCODE": "SQL3125W"
+            },
+            {
+                "MESSAGE": "The character data in row \"F2-92\" and column \"6\" was truncated because the data is longer than the target database column.",
+                "SQLCODE": "SQL3125W"
+            },
+            {
+                "MESSAGE": "The character data in row \"F2-93\" and column \"6\" was truncated because the data is longer than the target database column.",
+                "SQLCODE": "SQL3125W"
+            },
+            {
+                "MESSAGE": "The character data in row \"F2-94\" and column \"6\" was truncated because the data is longer than the target database column.",
+                "SQLCODE": "SQL3125W"
+            },
+            {
+                "MESSAGE": "The character data in row \"F2-95\" and column \"6\" was truncated because the data is longer than the target database column.",
+                "SQLCODE": "SQL3125W"
+            },
+            {
+                "MESSAGE": "The character data in row \"F2-96\" and column \"6\" was truncated because the data is longer than the target database column.",
+                "SQLCODE": "SQL3125W"
+            },
+            {
+                "MESSAGE": "The character data in row \"F2-97\" and column \"6\" was truncated because the data is longer than the target database column.",
+                "SQLCODE": "SQL3125W"
+            },
+            {
+                "MESSAGE": "The character data in row \"F2-98\" and column \"6\" was truncated because the data is longer than the target database column.",
+                "SQLCODE": "SQL3125W"
+            },
+            {
+                "MESSAGE": "The character data in row \"F2-99\" and column \"6\" was truncated because the data is longer than the target database column.",
+                "SQLCODE": "SQL3125W"
+            },
+            {
+                "MESSAGE": "The character data in row \"F2-100\" and column \"6\" was truncated because the data is longer than the target database column.",
+                "SQLCODE": "SQL3125W"
+            },
+            {
+                "MESSAGE": "The character data in row \"F2-101\" and column \"6\" was truncated because the data is longer than the target database column.",
+                "SQLCODE": "SQL3125W"
+            },
+            {
+                "MESSAGE": "The character data in row \"F2-102\" and column \"6\" was truncated because the data is longer than the target database column.",
+                "SQLCODE": "SQL3125W"
+            },
+            {
+                "MESSAGE": "The character data in row \"F2-103\" and column \"6\" was truncated because the data is longer than the target database column.",
+                "SQLCODE": "SQL3125W"
+            },
+            {
+                "MESSAGE": "The character data in row \"F2-104\" and column \"6\" was truncated because the data is longer than the target database column.",
+                "SQLCODE": "SQL3125W"
+            },
+            {
+                "MESSAGE": "The character data in row \"F2-105\" and column \"6\" was truncated because the data is longer than the target database column.",
+                "SQLCODE": "SQL3125W"
+            },
+            {
+                "MESSAGE": "The character data in row \"F2-106\" and column \"6\" was truncated because the data is longer than the target database column.",
+                "SQLCODE": "SQL3125W"
+            },
+            {
+                "MESSAGE": "The character data in row \"F2-107\" and column \"6\" was truncated because the data is longer than the target database column.",
+                "SQLCODE": "SQL3125W"
+            },
+            {
+                "MESSAGE": "The character data in row \"F2-108\" and column \"6\" was truncated because the data is longer than the target database column.",
+                "SQLCODE": "SQL3125W"
+            },
+            {
+                "MESSAGE": "The character data in row \"F2-109\" and column \"6\" was truncated because the data is longer than the target database column.",
+                "SQLCODE": "SQL3125W"
+            },
+            {
+                "MESSAGE": "The character data in row \"F2-110\" and column \"6\" was truncated because the data is longer than the target database column.",
+                "SQLCODE": "SQL3125W"
+            },
+            {
+                "MESSAGE": "The character data in row \"F2-111\" and column \"6\" was truncated because the data is longer than the target database column.",
+                "SQLCODE": "SQL3125W"
+            },
+            {
+                "MESSAGE": "The character data in row \"F2-112\" and column \"6\" was truncated because the data is longer than the target database column.",
+                "SQLCODE": "SQL3125W"
+            },
+            {
+                "MESSAGE": "The character data in row \"F2-113\" and column \"6\" was truncated because the data is longer than the target database column.",
+                "SQLCODE": "SQL3125W"
+            },
+            {
+                "MESSAGE": "The character data in row \"F2-114\" and column \"6\" was truncated because the data is longer than the target database column.",
+                "SQLCODE": "SQL3125W"
+            },
+            {
+                "MESSAGE": "The character data in row \"F2-135\" and column \"6\" was truncated because the data is longer than the target database column.",
+                "SQLCODE": "SQL3125W"
+            },
+            {
+                "MESSAGE": "The character data in row \"F2-136\" and column \"6\" was truncated because the data is longer than the target database column.",
+                "SQLCODE": "SQL3125W"
+            },
+            {
+                "MESSAGE": "The character data in row \"F2-137\" and column \"6\" was truncated because the data is longer than the target database column.",
+                "SQLCODE": "SQL3125W"
+            },
+            {
+                "MESSAGE": "The character data in row \"F2-138\" and column \"6\" was truncated because the data is longer than the target database column.",
+                "SQLCODE": "SQL3125W"
+            },
+            {
+                "MESSAGE": "The character data in row \"F2-139\" and column \"6\" was truncated because the data is longer than the target database column.",
+                "SQLCODE": "SQL3125W"
+            },
+            {
+                "MESSAGE": "The character data in row \"F2-140\" and column \"6\" was truncated because the data is longer than the target database column.",
+                "SQLCODE": "SQL3125W"
+            },
+            {
+                "MESSAGE": "The character data in row \"F2-141\" and column \"6\" was truncated because the data is longer than the target database column.",
+                "SQLCODE": "SQL3125W"
+            },
+            {
+                "MESSAGE": "The character data in row \"F2-142\" and column \"6\" was truncated because the data is longer than the target database column.",
+                "SQLCODE": "SQL3125W"
+            },
+            {
+                "MESSAGE": "The character data in row \"F2-143\" and column \"6\" was truncated because the data is longer than the target database column.",
+                "SQLCODE": "SQL3125W"
+            },
+            {
+                "MESSAGE": "The character data in row \"F2-144\" and column \"6\" was truncated because the data is longer than the target database column.",
+                "SQLCODE": "SQL3125W"
+            },
+            {
+                "MESSAGE": "The character data in row \"F2-145\" and column \"6\" was truncated because the data is longer than the target database column.",
+                "SQLCODE": "SQL3125W"
+            },
+            {
+                "MESSAGE": "The character data in row \"F2-146\" and column \"6\" was truncated because the data is longer than the target database column.",
+                "SQLCODE": "SQL3125W"
+            },
+            {
+                "MESSAGE": "The character data in row \"F2-147\" and column \"6\" was truncated because the data is longer than the target database column.",
+                "SQLCODE": "SQL3125W"
+            },
+            {
+                "MESSAGE": "The character data in row \"F2-148\" and column \"6\" was truncated because the data is longer than the target database column.",
+                "SQLCODE": "SQL3125W"
+            },
+            {
+                "MESSAGE": "The character data in row \"F2-149\" and column \"6\" was truncated because the data is longer than the target database column.",
+                "SQLCODE": "SQL3125W"
+            },
+            {
+                "MESSAGE": "The character data in row \"F2-156\" and column \"6\" was truncated because the data is longer than the target database column.",
+                "SQLCODE": "SQL3125W"
+            },
+            {
+                "MESSAGE": "The character data in row \"F2-157\" and column \"6\" was truncated because the data is longer than the target database column.",
+                "SQLCODE": "SQL3125W"
+            },
+            {
+                "MESSAGE": "The character data in row \"F2-158\" and column \"6\" was truncated because the data is longer than the target database column.",
+                "SQLCODE": "SQL3125W"
+            },
+            {
+                "MESSAGE": "The character data in row \"F2-159\" and column \"6\" was truncated because the data is longer than the target database column.",
+                "SQLCODE": "SQL3125W"
+            },
+            {
+                "MESSAGE": "The character data in row \"F2-160\" and column \"6\" was truncated because the data is longer than the target database column.",
+                "SQLCODE": "SQL3125W"
+            },
+            {
+                "MESSAGE": "The character data in row \"F2-161\" and column \"6\" was truncated because the data is longer than the target database column.",
+                "SQLCODE": "SQL3125W"
+            },
+            {
+                "MESSAGE": "The character data in row \"F2-162\" and column \"6\" was truncated because the data is longer than the target database column.",
+                "SQLCODE": "SQL3125W"
+            },
+            {
+                "MESSAGE": "The character data in row \"F2-163\" and column \"6\" was truncated because the data is longer than the target database column.",
+                "SQLCODE": "SQL3125W"
+            },
+            {
+                "MESSAGE": "The character data in row \"F2-164\" and column \"6\" was truncated because the data is longer than the target database column.",
+                "SQLCODE": "SQL3125W"
+            },
+            {
+                "MESSAGE": "The character data in row \"F2-165\" and column \"6\" was truncated because the data is longer than the target database column.",
+                "SQLCODE": "SQL3125W"
+            },
+            {
+                "MESSAGE": "The character data in row \"F2-166\" and column \"6\" was truncated because the data is longer than the target database column.",
+                "SQLCODE": "SQL3125W"
+            },
+            {
+                "MESSAGE": "Record token \"F0-1\" refers to user record number \"1\".",
+                "SQLCODE": "SQL3227W"
+            },
+            {
+                "MESSAGE": "Record token \"F2-71\" refers to user record number \"406\".",
+                "SQLCODE": "SQL3227W"
+            },
+            {
+                "MESSAGE": "Record token \"F2-72\" refers to user record number \"407\".",
+                "SQLCODE": "SQL3227W"
+            },
+            {
+                "MESSAGE": "Record token \"F2-73\" refers to user record number \"408\".",
+                "SQLCODE": "SQL3227W"
+            },
+            {
+                "MESSAGE": "Record token \"F2-74\" refers to user record number \"409\".",
+                "SQLCODE": "SQL3227W"
+            },
+            {
+                "MESSAGE": "Record token \"F2-75\" refers to user record number \"410\".",
+                "SQLCODE": "SQL3227W"
+            },
+            {
+                "MESSAGE": "Record token \"F2-76\" refers to user record number \"411\".",
+                "SQLCODE": "SQL3227W"
+            },
+            {
+                "MESSAGE": "Record token \"F2-77\" refers to user record number \"412\".",
+                "SQLCODE": "SQL3227W"
+            },
+            {
+                "MESSAGE": "Record token \"F2-78\" refers to user record number \"413\".",
+                "SQLCODE": "SQL3227W"
+            },
+            {
+                "MESSAGE": "Record token \"F2-79\" refers to user record number \"414\".",
+                "SQLCODE": "SQL3227W"
+            },
+            {
+                "MESSAGE": "Record token \"F2-80\" refers to user record number \"415\".",
+                "SQLCODE": "SQL3227W"
+            },
+            {
+                "MESSAGE": "Record token \"F2-81\" refers to user record number \"416\".",
+                "SQLCODE": "SQL3227W"
+            },
+            {
+                "MESSAGE": "Record token \"F2-82\" refers to user record number \"417\".",
+                "SQLCODE": "SQL3227W"
+            },
+            {
+                "MESSAGE": "Record token \"F2-83\" refers to user record number \"418\".",
+                "SQLCODE": "SQL3227W"
+            },
+            {
+                "MESSAGE": "Record token \"F2-84\" refers to user record number \"419\".",
+                "SQLCODE": "SQL3227W"
+            },
+            {
+                "MESSAGE": "Record token \"F2-85\" refers to user record number \"420\".",
+                "SQLCODE": "SQL3227W"
+            },
+            {
+                "MESSAGE": "Record token \"F2-86\" refers to user record number \"421\".",
+                "SQLCODE": "SQL3227W"
+            },
+            {
+                "MESSAGE": "Record token \"F2-87\" refers to user record number \"422\".",
+                "SQLCODE": "SQL3227W"
+            },
+            {
+                "MESSAGE": "Record token \"F2-88\" refers to user record number \"423\".",
+                "SQLCODE": "SQL3227W"
+            },
+            {
+                "MESSAGE": "Record token \"F2-89\" refers to user record number \"424\".",
+                "SQLCODE": "SQL3227W"
+            },
+            {
+                "MESSAGE": "Record token \"F2-90\" refers to user record number \"425\".",
+                "SQLCODE": "SQL3227W"
+            },
+            {
+                "MESSAGE": "Record token \"F2-91\" refers to user record number \"426\".",
+                "SQLCODE": "SQL3227W"
+            },
+            {
+                "MESSAGE": "Record token \"F2-92\" refers to user record number \"427\".",
+                "SQLCODE": "SQL3227W"
+            },
+            {
+                "MESSAGE": "Record token \"F2-93\" refers to user record number \"428\".",
+                "SQLCODE": "SQL3227W"
+            },
+            {
+                "MESSAGE": "Record token \"F2-94\" refers to user record number \"429\".",
+                "SQLCODE": "SQL3227W"
+            },
+            {
+                "MESSAGE": "Record token \"F2-95\" refers to user record number \"430\".",
+                "SQLCODE": "SQL3227W"
+            },
+            {
+                "MESSAGE": "Record token \"F2-96\" refers to user record number \"431\".",
+                "SQLCODE": "SQL3227W"
+            },
+            {
+                "MESSAGE": "Record token \"F2-97\" refers to user record number \"432\".",
+                "SQLCODE": "SQL3227W"
+            },
+            {
+                "MESSAGE": "Record token \"F2-98\" refers to user record number \"433\".",
+                "SQLCODE": "SQL3227W"
+            },
+            {
+                "MESSAGE": "Record token \"F2-99\" refers to user record number \"434\".",
+                "SQLCODE": "SQL3227W"
+            },
+            {
+                "MESSAGE": "Record token \"F2-100\" refers to user record number \"435\".",
+                "SQLCODE": "SQL3227W"
+            },
+            {
+                "MESSAGE": "Record token \"F2-101\" refers to user record number \"436\".",
+                "SQLCODE": "SQL3227W"
+            },
+            {
+                "MESSAGE": "Record token \"F2-102\" refers to user record number \"437\".",
+                "SQLCODE": "SQL3227W"
+            },
+            {
+                "MESSAGE": "Record token \"F2-103\" refers to user record number \"438\".",
+                "SQLCODE": "SQL3227W"
+            },
+            {
+                "MESSAGE": "Record token \"F2-104\" refers to user record number \"439\".",
+                "SQLCODE": "SQL3227W"
+            },
+            {
+                "MESSAGE": "Record token \"F2-105\" refers to user record number \"440\".",
+                "SQLCODE": "SQL3227W"
+            },
+            {
+                "MESSAGE": "Record token \"F2-106\" refers to user record number \"441\".",
+                "SQLCODE": "SQL3227W"
+            },
+            {
+                "MESSAGE": "Record token \"F2-107\" refers to user record number \"442\".",
+                "SQLCODE": "SQL3227W"
+            },
+            {
+                "MESSAGE": "Record token \"F2-108\" refers to user record number \"443\".",
+                "SQLCODE": "SQL3227W"
+            },
+            {
+                "MESSAGE": "Record token \"F2-109\" refers to user record number \"444\".",
+                "SQLCODE": "SQL3227W"
+            },
+            {
+                "MESSAGE": "Record token \"F2-110\" refers to user record number \"445\".",
+                "SQLCODE": "SQL3227W"
+            },
+            {
+                "MESSAGE": "Record token \"F2-111\" refers to user record number \"446\".",
+                "SQLCODE": "SQL3227W"
+            },
+            {
+                "MESSAGE": "Record token \"F2-112\" refers to user record number \"447\".",
+                "SQLCODE": "SQL3227W"
+            },
+            {
+                "MESSAGE": "Record token \"F2-113\" refers to user record number \"448\".",
+                "SQLCODE": "SQL3227W"
+            },
+            {
+                "MESSAGE": "Record token \"F2-114\" refers to user record number \"449\".",
+                "SQLCODE": "SQL3227W"
+            },
+            {
+                "MESSAGE": "Record token \"F2-135\" refers to user record number \"470\".",
+                "SQLCODE": "SQL3227W"
+            },
+            {
+                "MESSAGE": "Record token \"F2-136\" refers to user record number \"471\".",
+                "SQLCODE": "SQL3227W"
+            },
+            {
+                "MESSAGE": "Record token \"F2-137\" refers to user record number \"472\".",
+                "SQLCODE": "SQL3227W"
+            },
+            {
+                "MESSAGE": "Record token \"F2-138\" refers to user record number \"473\".",
+                "SQLCODE": "SQL3227W"
+            },
+            {
+                "MESSAGE": "Record token \"F2-139\" refers to user record number \"474\".",
+                "SQLCODE": "SQL3227W"
+            },
+            {
+                "MESSAGE": "Record token \"F2-140\" refers to user record number \"475\".",
+                "SQLCODE": "SQL3227W"
+            },
+            {
+                "MESSAGE": "Record token \"F2-141\" refers to user record number \"476\".",
+                "SQLCODE": "SQL3227W"
+            },
+            {
+                "MESSAGE": "Record token \"F2-142\" refers to user record number \"477\".",
+                "SQLCODE": "SQL3227W"
+            },
+            {
+                "MESSAGE": "Record token \"F2-143\" refers to user record number \"478\".",
+                "SQLCODE": "SQL3227W"
+            },
+            {
+                "MESSAGE": "Record token \"F2-144\" refers to user record number \"479\".",
+                "SQLCODE": "SQL3227W"
+            },
+            {
+                "MESSAGE": "Record token \"F2-145\" refers to user record number \"480\".",
+                "SQLCODE": "SQL3227W"
+            },
+            {
+                "MESSAGE": "Record token \"F2-146\" refers to user record number \"481\".",
+                "SQLCODE": "SQL3227W"
+            },
+            {
+                "MESSAGE": "Record token \"F2-147\" refers to user record number \"482\".",
+                "SQLCODE": "SQL3227W"
+            },
+            {
+                "MESSAGE": "Record token \"F2-148\" refers to user record number \"483\".",
+                "SQLCODE": "SQL3227W"
+            },
+            {
+                "MESSAGE": "Record token \"F2-149\" refers to user record number \"484\".",
+                "SQLCODE": "SQL3227W"
+            },
+            {
+                "MESSAGE": "Record token \"F2-156\" refers to user record number \"491\".",
+                "SQLCODE": "SQL3227W"
+            },
+            {
+                "MESSAGE": "Record token \"F2-157\" refers to user record number \"492\".",
+                "SQLCODE": "SQL3227W"
+            },
+            {
+                "MESSAGE": "Record token \"F2-158\" refers to user record number \"493\".",
+                "SQLCODE": "SQL3227W"
+            },
+            {
+                "MESSAGE": "Record token \"F2-159\" refers to user record number \"494\".",
+                "SQLCODE": "SQL3227W"
+            },
+            {
+                "MESSAGE": "Record token \"F2-160\" refers to user record number \"495\".",
+                "SQLCODE": "SQL3227W"
+            },
+            {
+                "MESSAGE": "Record token \"F2-161\" refers to user record number \"496\".",
+                "SQLCODE": "SQL3227W"
+            },
+            {
+                "MESSAGE": "Record token \"F2-162\" refers to user record number \"497\".",
+                "SQLCODE": "SQL3227W"
+            },
+            {
+                "MESSAGE": "Record token \"F2-163\" refers to user record number \"498\".",
+                "SQLCODE": "SQL3227W"
+            },
+            {
+                "MESSAGE": "Record token \"F2-164\" refers to user record number \"499\".",
+                "SQLCODE": "SQL3227W"
+            },
+            {
+                "MESSAGE": "Record token \"F2-165\" refers to user record number \"500\".",
+                "SQLCODE": "SQL3227W"
+            },
+            {
+                "MESSAGE": "Record token \"F2-166\" refers to user record number \"501\".",
+                "SQLCODE": "SQL3227W"
+            },
+            {
+                "MESSAGE": "Record token \"F3-1\" refers to user record number \"502\".",
+                "SQLCODE": "SQL3227W"
+            },
+            {
+                "MESSAGE": "Record token \"F3-2\" refers to user record number \"503\".",
+                "SQLCODE": "SQL3227W"
+            },
+            {
+                "MESSAGE": "Record token \"F3-3\" refers to user record number \"504\".",
+                "SQLCODE": "SQL3227W"
+            },
+            {
+                "MESSAGE": "Record token \"F3-4\" refers to user record number \"505\".",
+                "SQLCODE": "SQL3227W"
+            },
+            {
+                "MESSAGE": "Record token \"F3-5\" refers to user record number \"506\".",
+                "SQLCODE": "SQL3227W"
+            },
+            {
+                "MESSAGE": "Record token \"F3-6\" refers to user record number \"507\".",
+                "SQLCODE": "SQL3227W"
+            },
+            {
+                "MESSAGE": "Record token \"F3-7\" refers to user record number \"508\".",
+                "SQLCODE": "SQL3227W"
+            },
+            {
+                "MESSAGE": "Record token \"F3-11\" refers to user record number \"512\".",
+                "SQLCODE": "SQL3227W"
+            },
+            {
+                "MESSAGE": "Record token \"F3-12\" refers to user record number \"513\".",
+                "SQLCODE": "SQL3227W"
+            },
+            {
+                "MESSAGE": "Record token \"F3-15\" refers to user record number \"516\".",
+                "SQLCODE": "SQL3227W"
+            },
+            {
+                "MESSAGE": "Record token \"F3-16\" refers to user record number \"517\".",
+                "SQLCODE": "SQL3227W"
+            },
+            {
+                "MESSAGE": "Record token \"F3-25\" refers to user record number \"526\".",
+                "SQLCODE": "SQL3227W"
+            },
+            {
+                "MESSAGE": "Record token \"F3-26\" refers to user record number \"527\".",
+                "SQLCODE": "SQL3227W"
+            },
+            {
+                "MESSAGE": "Record token \"F3-28\" refers to user record number \"529\".",
+                "SQLCODE": "SQL3227W"
+            },
+            {
+                "MESSAGE": "Record token \"F3-29\" refers to user record number \"530\".",
+                "SQLCODE": "SQL3227W"
+            },
+            {
+                "MESSAGE": "Record token \"F3-32\" refers to user record number \"533\".",
+                "SQLCODE": "SQL3227W"
+            },
+            {
+                "MESSAGE": "Record token \"F3-33\" refers to user record number \"534\".",
+                "SQLCODE": "SQL3227W"
+            },
+            {
+                "MESSAGE": "The utility has completed processing.  \"534\" rows were read from the input file.",
+                "SQLCODE": "SQL3110N"
+            },
+            {
+                "MESSAGE": "Begin Load Consistency Point. Input record count = \"534\".",
+                "SQLCODE": "SQL3519W"
+            },
+            {
+                "MESSAGE": "Load Consistency Point was successful.",
+                "SQLCODE": "SQL3520W"
+            },
+            {
+                "MESSAGE": "The utility has finished the \"LOAD\" phase at time \"01\/02\/2023 10:43:45.703253\".",
+                "SQLCODE": "SQL3515W"
+            },
+            {
+                "MESSAGE": "At least one warning message was encountered during LOAD processing.",
+                "SQLCODE": "SQL3107W"
+            }
+        ],
+        "LOAD_STATUS": "RUNNING",
+        "ROWS_COMMITTED": 534,
+        "ROWS_DELETED": 0,
+        "ROWS_LOADED": 533,
+        "ROWS_READ": 534,
+        "ROWS_REJECTED": 1,
+        "ROWS_SKIPPED": 0,
+        "SCHEMA": "KYF94382",
+        "START_TIME": "20230102 10:43:39 GMT",
+        "TABLE": "CHICAGO_CRIME_DATA",
+        "WARNING": "At least one warning message was encountered during LOAD processing.. SQLCODE=3107, SQLSTATE=     , DRIVER=4.31.10"
+    },
+    "resultCode": "SUCCESS"
+}
